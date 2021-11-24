@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans: ital, wght @ 1.300 & display = swap'); 
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: "Poppins", sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg,#004777, #16eeb8c2);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.calculadora {
+    background: linear-gradient(45deg,#fafcfd, #c4f0f1c2);
+    max-width: 350px;
+    min-height: 35vh;
+    padding: 3rem;
+    box-shadow: 6px 6px 15px rgba(0,0,0, 0.7);
+    border-radius: 8px;
+
+  }
+  
+.calculadora {
+    max-width: 500px;
+    width: 100%;
+    background-color: #FFEBEE;
+    box-shadow: 0px 0px 30px gray;
+}
+
+.calculadora h2{
+    padding: 0.4rem;
+    text-align:center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.form-fatorial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+  }
+
+.form-fatorial label{
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 15px;
+    
+}
+
+.form-fatorial button {
+  font-size: inherit;
+  font-family:Arial, Helvetica, sans-serif;
+  background:linear-gradient(to left,#004777, #16eeb8c2);
+  cursor:pointer;
+  width: 50%;
+  padding: 0.5em;
+  margin-top: 0.8em;
+  
+}
+
+.form-fatorial button:hover {
+    filter:grayscale(2s);
+    transition: 0.2s;
+    color: rgba(229, 234, 238, 0.445);
+  }
+
+.form-fatorial input{
+    font-size:larger;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.form-fatorial label{
+    font-size: 20px;
+    font-family: initial;
+    align-items: center;
+}
+
+.sucesso{
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    box-shadow:ivory;
+    background:linear-gradient(to right,#82bada7e, #4adde74b)
+  }
+
+.erro{
+    display: none;
+    text-align: center;
+  }
+ 
+  
